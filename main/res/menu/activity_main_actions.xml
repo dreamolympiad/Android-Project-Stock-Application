@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <!--
+    <item android:id="@+id/action_settings"
+          android:icon="@drawable/sonarqube_settings"
+          android:title="@string/settings"
+		  sonarqube:showAsAction="ifRoom"/>
+
+	-->
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/empty"
+        android:title="Title 1"
+        app:showAsAction="always"
+       />
+
+
+    <item android:id="@+id/facebook_click"
+        android:icon="@drawable/facebook_icon"
+        android:title="Title 2"
+        app:showAsAction="always"/>
+
+</menu>
